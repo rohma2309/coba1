@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+}
+
+header {
+    background: url(gambarinfo1.jpg) center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+    position: relative;
+}
+
+header::berfore {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0, .5);
+}
+
+header h1{
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+nav{
+    background-color: #008080;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li{
+    margin: 0 1rem;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover{
+    color: #7ABA78;
+}
+main{
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0, .3);
+}
+
+.macammenu {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.macammenu h2{
+    font-size: 24px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.menu-item {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0, .5);
+    margin: 0.5rem;
+    max-width: 350px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 2rem;
+    border-radius: 5px;
+    flex: 1;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: scale(1.1);
+}
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu-item h3{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+.menu-item p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+.menu-item button{
+    background-color: #7ABA78;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius:5px ;
+    transition: background-color 0.3s ease;
+}
+
+.menu-item button:hover{
+    background-color: #87A922;
+    color: white
+}
+
+
+
+
+
+
+
+
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+ section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.deskripsi {
+    font-family: 'comic sans ms';
+    font-size: 20px;
+    font-weight: 800;
+    color: #1A4D2E;
+    width: 100%;
+    line-height: 50px;
+}
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #1A4D2E;
+    width: 100%;
+    line-height: 50px;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
